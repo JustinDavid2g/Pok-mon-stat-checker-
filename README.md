@@ -1,6 +1,6 @@
-# Pokémon Website ETL Process
+# Pokémon Stat Checker
 
-This repository contains scripts and documentation for the Extract, Transform, and Load (ETL) process of extracting Pokémon data from a website, transforming it into a usable format, and loading it into a destination for further analysis.
+This repository contains scripts and documentation for the Extract, Transform, and Load (ETL) process of extracting Pokémon data from a Pokiapi, transforming it into a format allowing for pokemon to be easily compared 
 
 ## Overview
 
