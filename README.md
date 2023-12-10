@@ -34,12 +34,11 @@ Install the required Python packages:
    This part of the code handles loading the CSV into your google cloud storage.
    You will need to set up a Google Cloud Storage bucket and obtain the necessary credentials in order for this part of 
    the code to work
+   ![image](https://github.com/JustinDavid2g/Pok-mon-stat-checker-/assets/121201630/ccd1fc6d-6e7a-49b5-be87-521eb4b7ce2a)
+
 
    ## Transform
-   The next part of the code is supposed to be a script that takes the CSV file and uses it to set up and transforms the data into tables
-   
-
-   Create a BigQuery dataset and tables to store the Pokémon data.
+   The next part of the code is supposed to be a script that takes the CSV file and uses it to set up and transforms the data into tables.
 
 BigQuery Setup
 The script creates the following tables in BigQuery:
@@ -54,10 +53,10 @@ Here is a visiual representation:
 
 Ensure that the schema definitions in the script match your data structure.
 After this your should be able to upload your tables from BigQuery to Looker Studio and precede 
-with your visualization
+with your visualization.
 
 ## Data
-   These are some data charts I was able to construct on Looker Studio using the data gathered   
+   These are some data charts I was able to construct on Looker Studio using the data gathered,   
    ![image](https://github.com/JustinDavid2g/Pok-mon-stat-checker-/assets/121201630/cfe83eac-ce7d-4db3-90a6-adf2607d41fe)
 
 
