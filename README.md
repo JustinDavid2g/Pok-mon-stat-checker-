@@ -1,26 +1,54 @@
 # Pokémon Stat Checker
 
-This repository contains scripts and documentation for the Extract, Transform, and Load (ETL) process of extracting Pokémon data from a Pokiapi, transforming it into a format allowing for pokemon to be easily compared 
+This project is a Pokémon stat checker that fetches data from the PokeAPI, processes it, and stores it in Google Cloud Storage and BigQuery.
 
 ## Overview
 
-The ETL process involves the following steps:
+The Pokémon Stat Checker is a Python script that interacts with the [PokeAPI](https://pokeapi.co/) to fetch information about Pokémon. The fetched data is processed, stored in a CSV file, uploaded to Google Cloud Storage, and then loaded into BigQuery tables.
 
-1. **Extract**: Data is extracted from the Pokémon website using web scraping techniques.
-2. **Transform**: Raw data is cleaned, processed, and transformed into a structured format suitable for analysis.
-3. **Load**: The transformed data is loaded into a destination, such as a database or a CSV file.
+## Getting Started
+Install the required Python packages:
 
-## Prerequisites
+1. os
+2. io
+3. from google.cloud import storage
+4. from google.oauth2 import service_account
 
-Ensure you have the following prerequisites installed:
+Usage
+Run the script to fetch Pokémon data, process it, and store it in Google Cloud Storage and BigQuery:
+
+python pokemon_stat_checker.py
+Check the BigQuery tables created with the fetched Pokémon data.
+
+Google Cloud Configuration
+Set up a Google Cloud Storage bucket and obtain the necessary credentials.
+
+Create a BigQuery dataset and tables to store the Pokémon data.
+
+Replace the placeholder values in the script with your actual Google Cloud Storage and BigQuery information.
+
+BigQuery Setup
+The script creates the following tables in BigQuery:
+
+EntityTable
+TypeTable
+AbilityTable
+FactTable
+Ensure that the schema definitions in the script match your data structure.
+
+### Prerequisites
+
+Before running the script, you need to have the following:
 
 - Python 3.x
-- Required Python libraries (specified in requirements.txt)
-- [Any additional dependencies]
+- Google Cloud Storage account
+- Google Cloud Platform project with BigQuery enabled
 
-## Installation
+### Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/pokemon-website-etl.git
+   git clone https://github.com/JustinDavid2g/Pokémon-stat-checker-.git
+
+   
