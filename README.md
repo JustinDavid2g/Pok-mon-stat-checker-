@@ -21,6 +21,10 @@ Install the required Python packages:
    The Extraction proccess of this code gathers the Data from the pokemon API website, filters it, and then 
    transforms it into a readable CSV file.
 
+   The CSV File:
+   
+
+
    ## Load 
    This part of the code handles loading the CSV into your google cloud storage.
    You will need to set up a Google Cloud Storage bucket and obtain the necessary credentials in order for this part of 
@@ -44,9 +48,12 @@ Here is a visiual representation:
 ![image](https://github.com/JustinDavid2g/Pok-mon-stat-checker-/assets/121201630/8f36c506-963e-4885-becf-b4e0a9f21fc5)
 
 Ensure that the schema definitions in the script match your data structure.
+After this your should be able to upload your tables from BigQuery to Looker and precede 
+with your visualization
 
 ## Data
-
+   These are some data charts I was able to construct on Looker Studio using the data gathered   
+   ![image](https://github.com/JustinDavid2g/Pok-mon-stat-checker-/assets/121201630/cfe83eac-ce7d-4db3-90a6-adf2607d41fe)
 
 
 
@@ -54,9 +61,11 @@ Ensure that the schema definitions in the script match your data structure.
 
 Before running the script, you need to have the following:
 
-- Python 3.x
+- Python 
 - Google Cloud Storage account
+  your credientials and bucket name
 - Google Cloud Platform project with BigQuery enabled
+  with the necessary roles enabled 
 
 
    
