@@ -2,7 +2,7 @@
 
 This project is a Pokémon stat checker that fetches data from the PokeAPI, processes it, and stores it in Google Cloud Storage and BigQuery.
 
-## Overview
+## What is this?
 
 The Pokémon Stat Checker is a Python script that interacts with the [PokeAPI](https://pokeapi.co/) to fetch information about Pokémon. The fetched data is processed, stored in a CSV file, uploaded to Google Cloud Storage, and then loaded into BigQuery tables.
 
@@ -13,6 +13,8 @@ Install the required Python packages:
 2. io
 3. from google.cloud import storage
 4. from google.oauth2 import service_account
+5. import requests
+6. import pandas as pd
 
 ## ELT Process
 ![image](https://github.com/JustinDavid2g/Pok-mon-stat-checker-/assets/121201630/759160ad-2435-43af-a524-751f16179b3a)
