@@ -14,7 +14,9 @@ Install the required Python packages:
 3. from google.cloud import storage
 4. from google.oauth2 import service_account
 
-Usage
+### ELT Process
+
+
 Run the script to fetch Pokémon data, process it, and store it in Google Cloud Storage and BigQuery:
 
 python pokemon_stat_checker.py
@@ -30,10 +32,14 @@ Replace the placeholder values in the script with your actual Google Cloud Stora
 BigQuery Setup
 The script creates the following tables in BigQuery:
 
-EntityTable
-TypeTable
-AbilityTable
-FactTable
+1. EntityTable
+2. TypeTable
+3. AbilityTable
+4. FactTable
+
+Here is a visiual representation: 
+![image](https://github.com/JustinDavid2g/Pok-mon-stat-checker-/assets/121201630/8f36c506-963e-4885-becf-b4e0a9f21fc5)
+
 Ensure that the schema definitions in the script match your data structure.
 
 ### Prerequisites
