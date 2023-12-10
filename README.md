@@ -23,6 +23,8 @@ Install the required Python packages:
 
    The CSV File:
    
+   ![image](https://github.com/JustinDavid2g/Pok-mon-stat-checker-/assets/121201630/7035337e-a95a-4355-a68e-c14c98cbb1f3)
+
 
 
    ## Load 
@@ -48,7 +50,7 @@ Here is a visiual representation:
 ![image](https://github.com/JustinDavid2g/Pok-mon-stat-checker-/assets/121201630/8f36c506-963e-4885-becf-b4e0a9f21fc5)
 
 Ensure that the schema definitions in the script match your data structure.
-After this your should be able to upload your tables from BigQuery to Looker and precede 
+After this your should be able to upload your tables from BigQuery to Looker Studio and precede 
 with your visualization
 
 ## Data
