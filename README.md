@@ -17,7 +17,8 @@ Install the required Python packages:
 6. import pandas as pd
 
 ## ELT Process
-![image](https://github.com/JustinDavid2g/Pok-mon-stat-checker-/assets/121201630/759160ad-2435-43af-a524-751f16179b3a)
+![image](https://github.com/JustinDavid2g/Pok-mon-stat-checker-/assets/121201630/9ae6628f-8d5c-45f7-974f-63cddb746a4d)
+
 
    ## Extract
    The Extraction proccess of this code gathers the Data from the pokemon API website, filters it, and then 
