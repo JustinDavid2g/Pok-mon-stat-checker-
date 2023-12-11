@@ -17,7 +17,8 @@ Install the required Python packages:
 6. import pandas as pd
 
 ## ELT Process
-![image](https://github.com/JustinDavid2g/Pok-mon-stat-checker-/assets/121201630/9ae6628f-8d5c-45f7-974f-63cddb746a4d)
+![image](https://github.com/JustinDavid2g/Pok-mon-stat-checker-/assets/121201630/b5acf62f-570a-450d-82eb-abe8fb5489e9)
+
 
 
    ## Extract
