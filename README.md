@@ -9,12 +9,12 @@ The Pokémon Stat Checker is a Python script that interacts with the [PokeAPI](h
 ## Getting Started
 Install the required Python packages:
 
-1. os
-2. io
-3. from google.cloud import storage
-4. from google.oauth2 import service_account
-5. import requests
-6. import pandas as pd
+* os
+* io
+* import google.cloud import storage
+* import google.oauth2 import service_account
+* import requests
+* import pandas as pd
 
 ## ELT Process
 ![image](https://github.com/JustinDavid2g/Pok-mon-stat-checker-/assets/121201630/b5acf62f-570a-450d-82eb-abe8fb5489e9)
@@ -44,10 +44,10 @@ Install the required Python packages:
 BigQuery Setup
 The script creates the following tables in BigQuery:
 
-1. EntityTable
-2. TypeTable
-3. AbilityTable
-4. FactTable
+*   EntityTable
+*   TypeTable
+*   AbilityTable
+*   FactTable
 
 Here is a visiual representation: 
 ![image](https://github.com/JustinDavid2g/Pok-mon-stat-checker-/assets/121201630/8f36c506-963e-4885-becf-b4e0a9f21fc5)
