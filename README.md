@@ -68,9 +68,12 @@ Before running the script, you need to have the following:
 
 - Python 
 - Google Cloud Storage account
-  your credientials and bucket name
-- Google Cloud Platform project with BigQuery enabled
-  with the necessary roles enabled 
+     * your credientials and bucket name
+- Google Cloud Platform project with BigQuery along
+     with the necessary roles enabled such as:
+     * BigQuery Data Editor
+     * BigQuery Job User
+     * Storage Admin
 
 
    
